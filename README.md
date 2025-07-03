@@ -12,7 +12,6 @@ This project implements an **end-to-end ETL (Extract, Transform, Load) pipeline*
 - [Pipeline Overview](#pipeline-overview)
 - [Setup & Installation](#setup--installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [References](#references)
 
 ---
@@ -113,18 +112,6 @@ This will launch Airflow and PostgreSQL containers.
 - **Scheduling**: The pipeline is set to run daily by default.
 - **Manual Run**: Trigger runs from the Airflow UI as needed.
 - **Monitoring**: Use Airflow's UI to monitor task status, logs, and data flow.
-
----
-
-## Screenshots
-
-**DAG Graph View:**
-
-> ![DAG Graph View](attachment:image.jpg)[1]
-
-**Airflow DAGs List:**
-
-> ![Airflow DAGs List](attachment:Screenshot-2025-07-02-210637.jpg)[2]
 
 ---
 
