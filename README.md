@@ -1,6 +1,6 @@
 # End-To-End-ETL-Pipeline-Using-Airflow-And-Astro
 
-This project implements an **end-to-end ETL (Extract, Transform, Load) pipeline** for weather data using [Apache Airflow](https://airflow.apache.org/) and [Astro (Astronomer)](https://www.astronomer.io/). The pipeline fetches weather data from an open API, processes it, and loads it into a PostgreSQL database. The project structure, architecture, and tooling closely follow the tutorial from [this YouTube video](https://www.youtube.com/watch?v=Y_vQyMljDsE)[3].
+This project implements an **end-to-end ETL (Extract, Transform, Load) pipeline** for weather data using [Apache Airflow](https://airflow.apache.org/) and [Astro (Astronomer)](https://www.astronomer.io/). The pipeline fetches weather data from an open API, processes it, and loads it into a PostgreSQL database.
 
 ---
 
@@ -134,14 +134,5 @@ This will launch Airflow and PostgreSQL containers.
 - [Official Astronomer Documentation](https://docs.astronomer.io/)
 - [Open-Meteo API Documentation](https://open-meteo.com/)
 
----
 
-## License
-
-MIT License
-
----
-
-**Author:**  
-Adapted and implemented following [Krish Naik's tutorial](https://www.youtube.com/watch?v=Y_vQyMljDsE)[3].
 
